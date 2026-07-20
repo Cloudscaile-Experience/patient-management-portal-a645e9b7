@@ -26,11 +26,12 @@ interface ColDef {
 }
 
 const COLUMNS: ColDef[] = [
-  { key: 'table.name', width: '35%' },
+  { key: 'table.name', width: '28%' },
   { key: 'table.dateOfBirth', width: '16%' },
   { key: 'table.gender', width: '12%' },
-  { key: 'table.phone', width: '18%' },
-  { key: 'table.actions', width: '19%', align: 'right' }
+  { key: 'table.phone', width: '12%' },
+  { key: 'table.email', width: '12%' },
+  { key: 'table.actions', width: '20%', align: 'right' }
 ];
 
 const SKELETON_ROWS = ['sk-a', 'sk-b', 'sk-c', 'sk-d', 'sk-e'];
