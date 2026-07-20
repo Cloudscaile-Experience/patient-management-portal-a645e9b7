@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "tenant": "cloudscaile",
+  "extensionName": "patientManagementPortal",
+  "description": "A system for clinics to manage patient records, vitals, and medical history. It provides a user-friendly interface for healthcare professionals to access and update patient information efficiently.",
+  "displayName": "Patient management portal",
+  "web": {
+    "scope": "remote",
+    "remoteFileName": "remoteEntry.js",
+    "modules": [
+      {
+        "name": "Patient Management",
+        "description": "Patient management module",
+        "module": "./PatientManagement",
+        "size": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      },
+      {
+        "name": "Patient Detail",
+        "description": "Patient detail module",
+        "module": "./PatientDetail",
+        "size": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ]
+  },
+  "backend": {
+    "js": {
+      "database": ["postgres"]
+    }
+  }
+}

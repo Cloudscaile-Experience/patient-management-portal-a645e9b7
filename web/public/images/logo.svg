@@ -1,0 +1,18 @@
+<svg class="loader" width="40" height="40" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" fill="none">
+<style>
+  .loader {
+    color: black; /* Default for light mode */
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .loader {
+      color: white; /* Changes to white in dark mode */
+    }
+  }
+</style>
+  <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="4" stroke-linecap="round"
+    stroke-dasharray="31.4 31.4" stroke-dashoffset="0">
+    <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s"
+      from="0 25 25" to="360 25 25" />
+  </circle>
+</svg>

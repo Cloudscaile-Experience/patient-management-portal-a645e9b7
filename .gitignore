@@ -1,0 +1,10 @@
+# IDE files and folders
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.spyderproject
+.spyproject
+.ropeproject

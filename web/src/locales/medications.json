@@ -1,0 +1,95 @@
+{
+  "en": {
+    "title": "Medications",
+    "summary": {
+      "active": "Active",
+      "on_hold": "On Hold",
+      "completed": "Completed",
+      "discontinued": "Discontinued",
+      "all": "All"
+    },
+    "card": {
+      "since": "Since",
+      "until": "Until",
+      "prescribedBy": "By",
+      "noEnd": "Ongoing"
+    },
+    "actions": {
+      "addMedication": "Add Medication",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "table": {
+      "name": "Medication",
+      "dosage": "Dosage",
+      "route": "Route",
+      "frequency": "Frequency",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "prescriber": "Prescriber",
+      "status": "Status",
+      "actions": "Actions",
+      "noResults": "No medications recorded",
+      "noResultsHint": "Add the first medication for this patient."
+    },
+    "route": {
+      "oral": "Oral",
+      "iv": "IV",
+      "im": "IM",
+      "subcutaneous": "Subcutaneous",
+      "topical": "Topical",
+      "inhaled": "Inhaled",
+      "sublingual": "Sublingual",
+      "other": "Other"
+    },
+    "status": {
+      "active": "Active",
+      "discontinued": "Discontinued",
+      "completed": "Completed",
+      "on_hold": "On Hold"
+    },
+    "form": {
+      "addTitle": "Add Medication",
+      "editTitle": "Edit Medication",
+      "name": "Brand Name",
+      "genericName": "Generic Name",
+      "dosage": "Dosage",
+      "route": "Route",
+      "frequency": "Frequency",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "prescriber": "Prescriber",
+      "status": "Status",
+      "notes": "Notes",
+      "selectRoute": "Select route",
+      "selectStatus": "Select status"
+    },
+    "delete": {
+      "title": "Delete Medication",
+      "message": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "name": "Medication name is required",
+      "nameMax": "Name must be 255 characters or less",
+      "dosage": "Dosage is required",
+      "dosageMax": "Dosage must be 100 characters or less",
+      "route": "Route is required",
+      "frequency": "Frequency is required",
+      "frequencyMax": "Frequency must be 100 characters or less",
+      "startDate": "Start date is required",
+      "startDateFormat": "Start date must be in YYYY-MM-DD format",
+      "endDateFormat": "End date must be in YYYY-MM-DD format",
+      "genericNameMax": "Generic name must be 255 characters or less",
+      "prescriberMax": "Prescriber must be 255 characters or less",
+      "notesMax": "Notes must be 2000 characters or less"
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page",
+      "of": "of"
+    }
+  }
+}

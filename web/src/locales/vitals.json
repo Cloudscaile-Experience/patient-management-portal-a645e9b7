@@ -1,0 +1,87 @@
+{
+  "en": {
+    "title": "Vital Signs",
+    "stats": {
+      "heartRate": "Heart Rate",
+      "bloodPressure": "Blood Pressure",
+      "spo2": "SpO₂",
+      "temperature": "Temperature",
+      "weight": "Weight",
+      "painScore": "Pain Score",
+      "latest": "Latest reading"
+    },
+    "chart": {
+      "title": "Trends",
+      "noData": "Not enough data to display a chart.",
+      "heartRate": "Heart Rate (bpm)",
+      "respiratoryRate": "Resp. Rate (/min)",
+      "spo2": "SpO₂ (%)",
+      "systolicBp": "Systolic BP",
+      "diastolicBp": "Diastolic BP",
+      "temperature": "Temperature (°C)",
+      "weight": "Weight (kg)",
+      "painScore": "Pain Score"
+    },
+    "allRecords": "All Records",
+    "actions": {
+      "addRecord": "Record Vitals",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "table": {
+      "recordedAt": "Recorded At",
+      "heartRate": "Heart Rate",
+      "respiratoryRate": "Resp. Rate (/min)",
+      "spo2": "SpO₂",
+      "bloodPressure": "Blood Pressure",
+      "temperature": "Temp (°C)",
+      "weight": "Weight (kg)",
+      "height": "Height (cm)",
+      "painScore": "Pain",
+      "recordedBy": "Recorded By",
+      "actions": "Actions",
+      "noResults": "No vital sign records",
+      "noResultsHint": "Record the first set of vitals for this patient."
+    },
+    "form": {
+      "addTitle": "Record Vital Signs",
+      "editTitle": "Edit Vital Signs",
+      "recordedAt": "Recorded At",
+      "heartRate": "Heart Rate (bpm)",
+      "respiratoryRate": "Respiratory Rate (breaths/min)",
+      "spo2": "SpO₂ (%)",
+      "systolicBp": "Systolic BP (mmHg)",
+      "diastolicBp": "Diastolic BP (mmHg)",
+      "temperature": "Temperature (°C)",
+      "weight": "Weight (kg)",
+      "height": "Height (cm)",
+      "painScore": "Pain Score (0–10)",
+      "recordedBy": "Recorded By",
+      "notes": "Notes"
+    },
+    "delete": {
+      "title": "Delete Vital Sign Record",
+      "message": "Are you sure you want to delete this vital sign record from {{date}}? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "recordedAt": "Recorded date/time is required",
+      "heartRateRange": "Heart rate must be between 0 and 300",
+      "respiratoryRateRange": "Respiratory rate must be between 0 and 100",
+      "spo2Range": "SpO₂ must be between 0 and 100",
+      "systolicBpRange": "Systolic BP must be between 0 and 400",
+      "diastolicBpRange": "Diastolic BP must be between 0 and 300",
+      "temperatureRange": "Temperature must be between 25 and 45",
+      "weightRange": "Weight must be between 0 and 700",
+      "heightRange": "Height must be between 0 and 300",
+      "painScoreRange": "Pain score must be between 0 and 10"
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page",
+      "of": "of"
+    }
+  }
+}
